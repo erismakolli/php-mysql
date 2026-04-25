@@ -7,6 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
+
+ <?php include('header.php')?>
+
     <section class="vh-100" style="background-color: #eee;">
   <div class="container h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -55,8 +58,7 @@
                   <div class="form-check d-flex justify-content-center mb-5">
                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
                     <label class="form-check-label" for="form2Example3">
-                      I agree all statements in <a href="#!">Terms of service</a>
-                    </label>
+                     I agree all statements in <a href="terms.php" target="_blank">Terms of Service</a>
                   </div>
 
                   <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
@@ -66,10 +68,9 @@
                 </form>
 
               </div>
-              <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
 
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
-                  class="img-fluid" alt="Sample image">
+                
+</div>
 
               </div>
             </div>
@@ -80,5 +81,9 @@
   </div>
 </section>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<?php include('footer.php')?>
+
 </body>
+
 </html>

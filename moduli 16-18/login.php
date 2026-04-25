@@ -10,6 +10,7 @@
 </head>
 <body>
     
+<?php include('header.php')?>
 
 <section class="vh-100">
   <div class="container-fluid h-custom">
@@ -67,7 +68,7 @@
           <div class="text-center text-lg-start mt-4 pt-2">
             <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
               style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="index.php"
                 class="link-danger">Register</a></p>
           </div>
 
@@ -102,7 +103,7 @@
   </div>
 </section>
 
-
+<?php include('footer.php')?>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </body>
